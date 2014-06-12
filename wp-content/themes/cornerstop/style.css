@@ -9,3 +9,77 @@
 */
  
 @import url("../wordpress-bootstrap-master/style.css");
+
+body, h1, h2, h3, h4, h5, h6 {
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background: url(images/background-private-parties.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 21px;
+	font-weight: 600;
+	margin-bottom: 2px;
+}
+
+a, a:visited {
+	color: #da824f;
+}
+
+a:hover {
+	color: #ac7a5e;
+}
+
+p {
+	margin: 0 0 15px;
+}
+
+#main {
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 2px;
+}
+
+.title {
+	color: #da824f;
+	font-size: 11px;
+	font-style: italic;
+}
+
+article {
+	border-bottom: none !important;
+}
+
+.map {
+	border: 5px solid #FFF;
+	float: left;
+	height: 440px;
+	margin: 22px 20px 0 0;
+	width: 450px;
+}
+
+hr {
+	opacity: .2;
+}
+
+footer hr {
+	opacity: 0;
+}
+
+footer {
+	font-size: 11px;
+}
+
+.restaurant_menu {
+	padding: 20px 35px 0;
+}
+
+#menu-main-menu {
+	font-weight: 600;
+}
