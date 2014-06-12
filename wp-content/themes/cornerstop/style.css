@@ -76,6 +76,10 @@ footer {
 	font-size: 11px;
 }
 
+footer a, footer a:hover, footer a:visited {
+	color: #FFF;
+}
+
 .restaurant_menu {
 	padding: 20px 35px 0;
 }
