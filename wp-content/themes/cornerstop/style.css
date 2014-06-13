@@ -99,3 +99,48 @@ img.private-parties {
 .social-icon:hover {
 	opacity: .7;
 }
+
+/* Navigation */
+.navbar {
+	border: none !important;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: transparent;
+	color: #da824f;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #FFF;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+	position: relative;
+}
+
+/* Eat + Drink */
+.page-id-16 #sidebar1 h2 {
+	border-bottom: 1px solid rgba(255, 255, 255, .5);
+	font-size: 16px;
+	padding: 25px 0;
+}
+
+.page-id-16 #sidebar1 h3 {
+	font-size: 16px;
+	padding-left: 15px;
+}
+
+.page-id-16 #main h1 a {
+	color: #FFF;
+}
+
+.page-id-16 #main h1 a:hover {
+	text-decoration: none;
+}
