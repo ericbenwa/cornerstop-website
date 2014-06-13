@@ -87,3 +87,15 @@ footer a, footer a:hover, footer a:visited {
 #menu-main-menu {
 	font-weight: 600;
 }
+
+img.private-parties {
+	margin: 20px 0 ;
+}
+
+.social-icon {
+	margin-right: 10px;
+}
+
+.social-icon:hover {
+	opacity: .7;
+}
