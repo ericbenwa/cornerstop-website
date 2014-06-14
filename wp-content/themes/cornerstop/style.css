@@ -13,6 +13,7 @@
 body, h1, h2, h3, h4, h5, h6 {
 	color: #FFF;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
 }
 
 body {
@@ -21,6 +22,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	padding-top: 0;
 }
 
 h1 {
@@ -46,10 +48,59 @@ p {
 	border-radius: 2px;
 }
 
+#menu-main-menu {
+	margin-left: 20px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+/* Private Parties */
+.page-id-4 {
+	background: url(images/background-private-parties.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* Gift Certificates */
+.page-id-7 {
+	background: url(images/background-visit.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* Gift Certificates */
+.page-id-10 {
+	background: url(images/background-gift-certificates.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* Our Story */
+.page-id-13 {
+	background: url(images/background-our-story.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.page-id-13 h1 {
+	margin-bottom: 15px;
+}
+
 .title {
 	color: #da824f;
 	font-size: 11px;
 	font-style: italic;
+	font-weight: 400;
 }
 
 article {
@@ -60,8 +111,8 @@ article {
 	border: 5px solid #FFF;
 	float: left;
 	height: 440px;
-	margin: 22px 20px 0 0;
-	width: 450px;
+	margin: 22px 20px 15px 0;
+	width: 440px;
 }
 
 hr {
@@ -125,16 +176,54 @@ img.private-parties {
 	position: relative;
 }
 
+.sidebar-social-icons {
+	position: fixed;
+	bottom: 50px;
+	width: 100%;
+}
+
+#main article {
+	margin: 0;
+	padding: 0;
+}
+
+/* Sidebar */
+#sidebar1 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	/*width: 150px;*/
+}
+
 /* Eat + Drink */
+.page-id-16 {
+	background: url(images/background-eat-drink.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.page-id-16 .title {
+	color: #FFF;
+}
+
 .page-id-16 #sidebar1 h2 {
-	border-bottom: 1px solid rgba(255, 255, 255, .5);
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
 	font-size: 16px;
-	padding: 25px 0;
+	padding: 15px 0;
+}
+
+.page-id-16 #sidebar1 h2 {
 }
 
 .page-id-16 #sidebar1 h3 {
 	font-size: 16px;
+}
+
+.page-id-16 #sidebar1 h3 a {
 	padding-left: 15px;
+	display: block;
 }
 
 .page-id-16 #main h1 a {
