@@ -8,7 +8,7 @@
 
 						<?php if ( is_page('visit')) { ?>
 
-						<?php } elseif ( is_page('blog')) { ?>
+						<?php } elseif ( is_page('happenings')) { ?>
 							<span>blog goodies</span>
 
 						<?php } elseif ( is_page('eat-drink')) { ?>
