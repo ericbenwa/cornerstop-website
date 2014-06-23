@@ -475,4 +475,50 @@ if( !function_exists( "theme_js" ) ) {
 }
 add_action( 'wp_enqueue_scripts', 'theme_js' );
 
+
+// Mailchimp newsletter integration for contact form 7
+/* MailChimp CF7 integration
+* Uses <theme>/includes/MCAPI.class.php
+*/
+function wpcf7_send_to_mailchimp($cfdata) {
+  $formtitle = $cfdata->title;
+  $formdata = $cfdata->posted_data;
+  // Opt-in field checked?
+  if ( $formdata['mailchimp-optin'] ) {
+    $names = explode(' ',trim($formdata['your-name']));
+    $firstName = $names[0];
+    $lastName = '';
+    if (count($names)>1){
+      // more than one word in name field
+      $lastName = array_pop($names);
+    }
+ 
+    $send_this_email = $formdata['your-email'];
+    $mergeVars = array(
+      'FNAME'=>$firstName,
+      'LNAME'=>$lastName
+    );
+    // MCAPI.class.php needs to be in theme/includes folder
+    require_once('../cornerstop/includes/MCAPI.class.php');
+ 
+    // grab an API Key from http://admin.mailchimp.com/account/api/
+    $api = new MCAPI('8e337ac4b4138dfcce6df560d1752d7e-us3');
+ 
+    // grab your List's Unique Id by going to http://admin.mailchimp.com/lists/
+    // Click the "settings" link for the list - the Unique Id is at the bottom of that page.
+    $list_id = '2169e03294';
+ 
+    // Send the form content to MailChimp List without double opt-in
+    $retval = $api->listSubscribe($list_id, $send_this_email, $mergeVars, 'html', false,true);
+  }
+}
+add_action('wpcf7_mail_sent', 'wpcf7_send_to_mailchimp', 1);
+
+
+// De-register jQuery from Contact Form 7
+add_action( 'wp_print_scripts', 'my_deregister_javascript', 100 );
+function my_deregister_javascript() {
+    wp_deregister_script( 'contact-form-7' );
+}
+
 ?>
