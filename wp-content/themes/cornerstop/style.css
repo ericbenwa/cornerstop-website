@@ -31,7 +31,7 @@ h1 {
 	margin-bottom: 2px;
 }
 
-a, a:visited {
+a, a:visited, #main footer a, #main footer a:visited {
 	color: #da824f;
 }
 
@@ -110,7 +110,7 @@ article {
 .map {
 	border: 5px solid #FFF;
 	float: left;
-	height: 440px;
+	height: 420px;
 	margin: 22px 20px 15px 0;
 	width: 440px;
 }
@@ -232,4 +232,54 @@ img.private-parties {
 
 .page-id-16 #main h1 a:hover {
 	text-decoration: none;
+}
+/* Contact Form */
+.wpcf7-form-control-wrap input, .wpcf7-form-control-wrap textarea {
+	background-color: transparent;
+	border: 1px solid #7e7d78;
+	width:100%;
+}
+
+.wpcf7-form-control-wrap textarea {
+	height: 100px;
+}
+
+.wpcf7-form input[type="submit"] {
+	background-color: #7e7d78;
+	border: 1px solid #7e7d78;
+	color: #FFF;
+}
+
+.wpcf7-form .col-sm-8 {
+	text-align: right;
+}
+
+#mc4wp-checkbox label {
+	font-weight: normal;
+	margin-top: 2px;
+	text-align: right;
+}
+
+
+/* Happenings */
+#main p.meta {
+	font-style: normal;
+}
+
+header .page-header {
+	border-bottom: none;
+}
+
+#main footer {
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+	margin-bottom: 15px;
+	padding-bottom: 20px;
+}
+
+#main article:last-of-type footer {
+	border-bottom: transparent;
+}
+
+#main .page-header {
+	margin: 20px 0 20px;
 }
