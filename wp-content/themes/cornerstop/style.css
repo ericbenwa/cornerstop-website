@@ -25,10 +25,14 @@ body {
 	padding-top: 0;
 }
 
-h1 {
+h1, .h2 {
 	font-size: 21px;
 	font-weight: 600;
 	margin-bottom: 2px;
+}
+
+.h2 {
+	font-family: 'Open Sans', sans-serif;
 }
 
 a, a:visited, #main footer a, #main footer a:visited {
@@ -195,6 +199,15 @@ img.private-parties {
 	/*width: 150px;*/
 }
 
+#sidebar1 a {
+	color: #FFF;
+}
+
+h4.widgettitle {
+	font-size: 16px;
+	padding: 15px 0 0;
+}
+
 /* Eat + Drink */
 .page-id-16 {
 	background: url(images/background-eat-drink.jpg) no-repeat center center fixed;
@@ -212,6 +225,7 @@ img.private-parties {
 	border-bottom: 1px solid rgba(255, 255, 255, .3);
 	font-size: 16px;
 	padding: 15px 0;
+	text-transform: uppercase;
 }
 
 .page-id-16 #sidebar1 h2 {
@@ -272,8 +286,8 @@ header .page-header {
 
 #main footer {
 	border-bottom: 1px solid rgba(255,255,255,0.1);
-	margin-bottom: 15px;
-	padding-bottom: 20px;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
 }
 
 #main article:last-of-type footer {
@@ -281,5 +295,32 @@ header .page-header {
 }
 
 #main .page-header {
-	margin: 20px 0 20px;
+	margin: 5px 0 10px;
+}
+
+#archives-2 ul, #categories-2 ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#categories-2 ul li {
+	margin-bottom: 10px;
+}
+
+#categories-2, .blog-categories {
+	font-size: 16px;
+	margin-bottom: 0;
+	padding: 0 0 15px;
+	text-transform: uppercase;
+}
+
+#categories-2 .widgettitle {
+	display: none;
+}
+
+.blog-categories {
+	display: block;
+	margin-top: 30px;
+	padding: 0 0 15px;
 }

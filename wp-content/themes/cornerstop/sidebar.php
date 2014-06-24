@@ -8,8 +8,22 @@
 
 						<?php if ( is_page('visit')) { ?>
 
-						<?php } elseif ( is_page('happenings')) { ?>
-							<span>blog goodies</span>
+						<?php } elseif ( is_page('index')) { ?>
+
+						<?php } elseif ( is_page('our-story')) { ?>
+							<div class="sidebar-social-icons">
+								<a href="https://www.facebook.com/cornerstopeatery"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-facebook.png" alt="icon-facebook" class="alignnone size-full wp-image-63 social-icon" /></a> <a href="http://www.twitter.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-twitter.png" alt="icon-twitter" class="alignnone size-full wp-image-65 social-icon" /></a> <a href="http://www.instagram.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-instagram.png" alt="icon-instagram" class="alignnone size-full wp-image-64 social-icon" /></a>
+							</div>
+
+						<?php } elseif ( is_page('private-parties')) { ?>
+							<div class="sidebar-social-icons">
+								<a href="https://www.facebook.com/cornerstopeatery"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-facebook.png" alt="icon-facebook" class="alignnone size-full wp-image-63 social-icon" /></a> <a href="http://www.twitter.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-twitter.png" alt="icon-twitter" class="alignnone size-full wp-image-65 social-icon" /></a> <a href="http://www.instagram.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-instagram.png" alt="icon-instagram" class="alignnone size-full wp-image-64 social-icon" /></a>
+							</div>
+
+						<?php } elseif ( is_page('gift-certificates')) { ?>
+							<div class="sidebar-social-icons">
+								<a href="https://www.facebook.com/cornerstopeatery"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-facebook.png" alt="icon-facebook" class="alignnone size-full wp-image-63 social-icon" /></a> <a href="http://www.twitter.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-twitter.png" alt="icon-twitter" class="alignnone size-full wp-image-65 social-icon" /></a> <a href="http://www.instagram.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-instagram.png" alt="icon-instagram" class="alignnone size-full wp-image-64 social-icon" /></a>
+							</div>
 
 						<?php } elseif ( is_page('eat-drink')) { ?>
 							<h2>Eat</h2>
@@ -23,12 +37,16 @@
 							<h3><a href="#beers">Beers</a></h3>
 
 							<div class="sidebar-social-icons">
-								<a href="http://www.facebook.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-facebook.png" alt="icon-facebook" class="alignnone size-full wp-image-63 social-icon" /></a> <a href="http://www.twitter.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-twitter.png" alt="icon-twitter" class="alignnone size-full wp-image-65 social-icon" /></a> <a href="http://www.instagram.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-instagram.png" alt="icon-instagram" class="alignnone size-full wp-image-64 social-icon" /></a>
+								<a href="https://www.facebook.com/cornerstopeatery"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-facebook.png" alt="icon-facebook" class="alignnone size-full wp-image-63 social-icon" /></a> <a href="http://www.twitter.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-twitter.png" alt="icon-twitter" class="alignnone size-full wp-image-65 social-icon" /></a> <a href="http://www.instagram.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-instagram.png" alt="icon-instagram" class="alignnone size-full wp-image-64 social-icon" /></a>
 							</div>
 						<?php } else {  ?>
-							<!-- Our Story, Private Parties and any other left -->
+							<!-- All blog posts -->
+
+							<a href="http://cornerstop.local/happenings/" class="blog-categories">All</a>
+							<?php dynamic_sidebar( 'sidebar1' ); ?>
+
 							<div class="sidebar-social-icons">
-								<a href="http://www.facebook.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-facebook.png" alt="icon-facebook" class="alignnone size-full wp-image-63 social-icon" /></a> <a href="http://www.twitter.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-twitter.png" alt="icon-twitter" class="alignnone size-full wp-image-65 social-icon" /></a> <a href="http://www.instagram.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-instagram.png" alt="icon-instagram" class="alignnone size-full wp-image-64 social-icon" /></a>
+								<a href="https://www.facebook.com/cornerstopeatery"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-facebook.png" alt="icon-facebook" class="alignnone size-full wp-image-63 social-icon" /></a> <a href="http://www.twitter.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-twitter.png" alt="icon-twitter" class="alignnone size-full wp-image-65 social-icon" /></a> <a href="http://www.instagram.com"><img src="http://cornerstop.local/wp-content/uploads/2014/06/icon-instagram.png" alt="icon-instagram" class="alignnone size-full wp-image-64 social-icon" /></a>
 							</div>
 						<?php }	 ?>
 
