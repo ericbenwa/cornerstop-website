@@ -28,7 +28,7 @@
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
 
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 				
 	</head>
 	
