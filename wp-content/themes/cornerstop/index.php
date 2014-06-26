@@ -4,7 +4,11 @@
 
 				<?php get_sidebar(); // sidebar 1 ?>
 			
-				<div id="main" class="col-sm-8 clearfix col-sm-offset-3" role="main">
+				<div class="col-sm-8 clearfix">
+
+					<?php include 'navbar.php';?>
+			
+					<div id="main" role="main">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					

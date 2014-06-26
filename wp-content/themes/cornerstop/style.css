@@ -36,7 +36,7 @@ h1, .h2 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-#main.col-sm-8 {
+#main {
 	padding: 10px 40px 0;
 }
 
@@ -58,7 +58,7 @@ p {
 }
 
 #menu-main-menu {
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 }
 
 .navbar {
@@ -167,7 +167,7 @@ img.private-parties {
 /* Navigation */
 .navbar {
 	border: none !important;
-	font-size: 17px;
+	font-size: 16px;
 	font-weight: 600;
 }
 
@@ -179,6 +179,10 @@ img.private-parties {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
 	color: #da824f;
+}
+
+.navbar-nav ul li:first-child {
+	padding-left: 0;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -207,9 +211,9 @@ img.private-parties {
 
 /* Sidebar */
 #sidebar1 {
-	position: fixed;
+/*	position: fixed;
 	top: 0;
-	left: 0;
+	left: 0;*/
 	/*width: 150px;*/
 }
 
