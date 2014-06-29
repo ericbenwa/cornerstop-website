@@ -4,7 +4,7 @@
 
 						<!-- <?php dynamic_sidebar( 'sidebar1' ); ?> -->
 
-						<a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/corner-stop-eatery-restaurant.png" /></a>
+						<a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/corner-stop-eatery-restaurant-slim.png" /></a>
 
 						<?php if ( is_page('visit')) { ?>
 

@@ -46,6 +46,7 @@ h1, .h2 {
 }
 
 #main {
+	margin-bottom: 30px;
 	padding: 10px 40px 0;
 }
 
@@ -154,8 +155,10 @@ footer a, footer a:hover, footer a:visited {
 }
 
 .price {
-	padding-left: 25px;
+	padding-left: 15px;
 }
+
+.restuarant_menu strong
 
 #menu-main-menu {
 	font-weight: 600;
@@ -223,7 +226,7 @@ img.private-parties {
 /*	position: fixed;
 	top: 0;
 	left: 0;*/
-	width: 140px;
+	width: 125px;
 }
 
 #sidebar1 a {
@@ -273,6 +276,30 @@ h4.widgettitle {
 .page-id-16 #main h1 a:hover {
 	text-decoration: none;
 }
+
+/* Happenings Search Input */
+.form-inline .input-group input {
+	background-color: transparent;
+	border-top: 1px solid #7e7d78;
+	border-left: 1px solid #7e7d78;
+	border-right: none;
+	border-bottom: 1px solid #7e7d78;
+	width:100%;
+	border-radius: 0;
+	color: #FFF;
+	-webkit-box-shadow: none;
+}
+
+.form-inline .input-group .input-group-btn button {
+	background: url(images/icon-search.png) 5px 10px no-repeat;
+	text-indent: -99999px;
+	border: none;
+	border-top: 1px solid #7e7d78;
+	border-right: 1px solid #7e7d78;
+	border-bottom: 1px solid #7e7d78;
+	border-radius: 0;
+}
+
 /* Contact Form */
 .wpcf7-form-control-wrap input, .wpcf7-form-control-wrap textarea {
 	background-color: transparent;
@@ -368,4 +395,8 @@ header .page-header {
 	display: block;
 	margin-top: 30px;
 	padding: 0 0 15px;
+}
+
+#inner-footer img {
+	margin-left: 5px;
 }
