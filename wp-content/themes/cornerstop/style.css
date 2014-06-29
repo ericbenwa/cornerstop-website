@@ -401,8 +401,36 @@ header .page-header {
 	margin-left: 5px;
 }
 
+/*footer #inner-footer {
+	position: relative;
+}
+
+footer #inner-footer .row {
+	position: fixed;
+	bottom: 0;
+}*/
+
 
 /* Homepage */
 #background_cycler{padding:0;margin:0;width:100%;position:absolute;top:0;left:0;z-index:-1}
 #background_cycler img{position:absolute;left:0;top:0;width:100%;z-index:1}
 #background_cycler img.active{z-index:3}
+
+#button-next, #button-previous {
+	height: 145px;
+	width: 70px;
+}
+
+#button-next:hover, #button-previous:hover, #button-next:active, #button-previous:active {
+	opacity: .6;
+}
+
+#button-next {
+	background: url(images/button-next.png);
+	position: relative;
+	right: 0;
+}
+
+#button-previous {
+	background: url(images/button-previous.png);
+}

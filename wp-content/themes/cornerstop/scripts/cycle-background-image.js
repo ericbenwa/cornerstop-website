@@ -9,7 +9,11 @@ function cycleImages(){
     }
 
     $(window).load(function(){
-		$('#background_cycler').fadeIn(1500);//fade the background back in once all the images are loaded
-		  // run every 7s
-		  setInterval('cycleImages()', 7000);
+		$('#background_cycler').fadeIn(1000);//fade the background back in once all the images are loaded
+		  // run every 5s
+		  setInterval('cycleImages()', 5000);
+    })
+
+    $('#button-next').click(function(){
+      cycleImages();
     })

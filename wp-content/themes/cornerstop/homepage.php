@@ -13,6 +13,10 @@ Template Name: Homepage Page
 				<div class="col-sm-8 clearfix">
 
 					<?php include 'navbar.php';?>
+
+					<div id="button-previous"></div>
+
+					<div id="button-next"></div>
 			
 				</div> <!-- end #main -->
     
