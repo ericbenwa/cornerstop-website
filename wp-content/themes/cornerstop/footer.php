@@ -52,6 +52,8 @@
 			ga('send', 'pageview');
 		</script>
 
+		<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/cycle-background-image.js"></script>
+
 	</body>
 
 </html>

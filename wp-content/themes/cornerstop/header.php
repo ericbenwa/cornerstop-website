@@ -29,9 +29,27 @@
 		<!-- end of wordpress head -->
 
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>  
 				
 	</head>
 	
 	<body <?php body_class(); ?>>
+
+		<?php if ( is_page('index')) { ?>
+
+			<div id="background_cycler" >
+
+				<script type="text/javascript">
+					$('#background_cycler').hide();//hide the background while the images load, ready to fade in later
+				</script>
+
+				<img class="active" src="<?php echo get_stylesheet_directory_uri(); ?>/images/background-eat-drink.jpg" alt=""/>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/background-gift-certificates.jpg" alt=""   />
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/background-happenings.jpg" alt=""  />
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/background-our-story.jpg" alt=""/>		
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/background-private-parties.jpg" alt=""  />
+			</div>
+
+		<?php }	 ?>
 		
 		<div class="container">
