@@ -18,9 +18,10 @@
 					<?php if ( is_page('index')) { ?>
 						<p class="attribution"><strong>Lunch</strong>: Wednesday – Sunday 11:30-2:30 • <strong>Bar menu &amp; drinks</strong> in between • <strong>Dinner</strong> nightly at 5pm<br />
 						<a href="tel:781-875-3065">781.875.3065</a> • <a href="https://www.google.com/maps/place/The+Corner+Stop+Eatery/@42.259371,-70.845015,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x604bb783d4e9e727">235 Hull Street, Cohasset MA 02025</a> <a href="https://www.facebook.com/cornerstopeatery"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon-sm-facebook.png" /></a> <a href="http://www.twitter.com/cornerstop2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon-sm-twitter.png" /></a> <a href="http://www.instagram.com/cornerstopeatery"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon-sm-instagram.png" /></a></p>
+					
+						<?php echo do_shortcode('[mc4wp_form]'); ?>
 					<?php }	 ?>
 
-					<?php echo do_shortcode('[mc4wp_form]'); ?>
 				
 				</div> <!-- end #inner-footer -->
 				
