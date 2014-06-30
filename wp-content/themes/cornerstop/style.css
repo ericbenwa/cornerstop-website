@@ -30,6 +30,10 @@ body {
     text-align: center;
 }
 
+.col-md-offset-1 {
+	margin-left: 10.333333333%;
+}
+
 .col-centered {
     float: none;
     margin: 0 auto;
@@ -193,13 +197,17 @@ img.private-parties {
 	color: #da824f;
 }
 
-.navbar-nav ul li:first-child {
+.navbar-default .navbar-nav > li:first-child > a {
 	padding-left: 0;
+}
+
+.navbar-default .navbar-nav > li:last-child > a {
+	padding-right: 0;
 }
 
 .navbar-default .navbar-nav > li > a {
 	color: #FFF;
-	padding: 30px 20px 20px;
+	padding: 30px 23px 20px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
