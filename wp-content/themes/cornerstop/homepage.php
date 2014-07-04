@@ -14,10 +14,6 @@ Template Name: Homepage Page
 
 					<?php include 'navbar.php';?>
 
-					<div id="button-previous"></div>
-
-					<div id="button-next"></div>
-			
 				</div> <!-- end #main -->
     
 			</div> <!-- end #content -->
