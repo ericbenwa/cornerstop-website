@@ -4,7 +4,7 @@
     
 				<?php get_sidebar(); // sidebar 1 ?>
 
-				<div class="col-sm-8 clearfix">
+				<div class="col-sm-10 clearfix">
 
 					<?php include 'navbar.php';?>
 			

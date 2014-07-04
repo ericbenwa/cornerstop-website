@@ -26,6 +26,25 @@ body {
 	line-height: 20px;
 }
 
+.container {
+	width: 960px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.col-sm-10 {
+	padding-left: 0;
+}
+
+.col-sm-8 {
+	/*width: 825px;*/
+	/*padding-right: 0;*/
+}
+
+img.alignleft {
+	margin-right: 25px;
+}
+
 .row-centered {
     text-align: center;
 }
@@ -88,13 +107,22 @@ p {
 	background-size: cover;
 }
 
-/* Gift Certificates */
+/* Visit */
 .page-id-7 {
 	background: url(images/background-visit.jpg) no-repeat top center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.page-id-7 #main {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.page-id-7 #main h1 {
+	font-size: 16px;
 }
 
 /* Gift Certificates */
@@ -133,9 +161,9 @@ article {
 .map {
 	border: 5px solid #FFF;
 	float: left;
-	height: 430px;
-	margin: 22px 30px 15px 0;
-	width: 350px;
+	height: 410px;
+	margin: 22px 25px 15px 0;
+	width: 438px;
 }
 
 hr {
@@ -207,7 +235,7 @@ img.private-parties {
 
 .navbar-default .navbar-nav > li > a {
 	color: #FFF;
-	padding: 30px 23px 20px;
+	padding: 20px 23px 25px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -234,7 +262,7 @@ img.private-parties {
 /*	position: fixed;
 	top: 0;
 	left: 0;*/
-	width: 125px;
+	/*width: 125px;*/
 }
 
 #sidebar1 a {
@@ -265,6 +293,7 @@ h4.widgettitle {
 	font-weight: 600;
 	padding: 15px 0;
 	text-transform: uppercase;
+	width: 93px;
 }
 
 .page-id-16 #sidebar1 h3 {
@@ -296,6 +325,10 @@ h4.widgettitle {
 	border-radius: 0;
 	color: #FFF;
 	-webkit-box-shadow: none;
+}
+
+.form-inline .input-group {
+	width: 88%;
 }
 
 .form-inline .input-group .input-group-btn button {
