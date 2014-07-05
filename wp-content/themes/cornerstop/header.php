@@ -12,8 +12,8 @@
 		<title><?php wp_title( '|', true, 'right' ); ?> The Corner Stop Eatery</title>	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="stylesheet" type="text/css" href="wp-content/themes/cornerstop/styles/global-elements.css" />
-		<link rel="stylesheet" type="text/css" href="wp-content/themes/cornerstop/styles/scrollable_content.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/global-elements.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/scrollable_content.css" />
 				
 		<!-- media-queries.js (fallback) -->
 		<!--[if lt IE 9]>
@@ -76,17 +76,17 @@
             window.location = "/mobile";
         }
 
-        es_globals.templateUrl = "http://cornerstop.local/wp-content/themes/cornerstop";
+        es_globals.templateUrl = "<?php echo get_stylesheet_directory_uri(); ?>";
 
         es_globals.bgImages = [];
 
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = 'http://cornerstop.local/wp-content/themes/cornerstop/images/background-home.jpg';
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = 'http://cornerstop.local/wp-content/themes/cornerstop/images/background-eat-drink.jpg';
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = 'http://cornerstop.local/wp-content/themes/cornerstop/images/background-happenings.jpg';
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = 'http://cornerstop.local/wp-content/themes/cornerstop/images/background-our-story.jpg';
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = 'http://cornerstop.local/wp-content/themes/cornerstop/images/background-private-parties.jpg';
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = 'http://cornerstop.local/wp-content/themes/cornerstop/images/background-gift-certificates.jpg';
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = 'http://cornerstop.local/wp-content/themes/cornerstop/images/background-visit.jpg';
+        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-home.jpg';
+        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-eat-drink.jpg';
+        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-happenings.jpg';
+        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-our-story.jpg';
+        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-private-parties.jpg';
+        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-gift-certificates.jpg';
+        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-visit.jpg';
     </script>
 				
 	</head>

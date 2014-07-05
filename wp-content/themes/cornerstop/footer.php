@@ -53,6 +53,6 @@
 		</script>
 
 		<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/cycle-background-image.js"></script>
-		<script type="text/javascript" src="wp-content/themes/cornerstop/scripts/require.min.js" data-main="http://easternstandardboston.com/wp-content/themes/easternstandard/scripts/main"></script>
+		<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/require.min.js" data-main="http://easternstandardboston.com/wp-content/themes/easternstandard/scripts/main"></script>
 
 </html>
