@@ -445,11 +445,12 @@ header .page-header {
 /*footer #inner-footer {
 	position: relative;
 }
-
-footer #inner-footer .row {
+*/
+footer {
 	position: fixed;
 	bottom: 0;
-}*/
+	z-index: 2;
+}
 
 
 /* Homepage */
