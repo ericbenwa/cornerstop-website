@@ -12,8 +12,9 @@
 		<title><?php wp_title( '|', true, 'right' ); ?> The Corner Stop Eatery</title>	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		<?php if ( is_page('index')) { ?>
 		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/global-elements.css" />
-		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/scrollable_content.css" />
+		<?php }	 ?>
 				
 		<!-- media-queries.js (fallback) -->
 		<!--[if lt IE 9]>
