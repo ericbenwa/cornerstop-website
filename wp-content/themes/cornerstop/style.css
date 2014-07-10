@@ -317,14 +317,21 @@ h4.widgettitle {
 /* Happenings Search Input */
 .form-inline .input-group input {
 	background-color: transparent;
-	border-top: 1px solid #7e7d78;
-	border-left: 1px solid #7e7d78;
+	border-top: 1px solid #FFF;
+	border-left: 1px solid #FFF;
 	border-right: none;
-	border-bottom: 1px solid #7e7d78;
+	border-bottom: 1px solid #FFF;
 	width:100%;
 	border-radius: 0;
 	color: #FFF;
 	-webkit-box-shadow: none;
+}
+
+.form-inline .input-group ::-webkit-input-placeholder,
+.form-inline .input-group :-moz-placeholder,
+.form-inline .input-group ::-moz-placeholder,
+.form-inline .input-group :-ms-input-placeholder {
+	color: #FFF;
 }
 
 .form-inline .input-group {
@@ -335,9 +342,9 @@ h4.widgettitle {
 	background: url(images/icon-search.png) 5px 10px no-repeat;
 	text-indent: -99999px;
 	border: none;
-	border-top: 1px solid #7e7d78;
-	border-right: 1px solid #7e7d78;
-	border-bottom: 1px solid #7e7d78;
+	border-top: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
 	border-radius: 0;
 }
 
