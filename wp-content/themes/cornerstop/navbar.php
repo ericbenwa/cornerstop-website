@@ -8,7 +8,7 @@
 							<span class="icon-bar"></span>
 						</button>
 
-						<!-- <a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a> -->
+						<a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>">The Corner Stop Eatery</a>
 					</div>
 
 					<div class="collapse navbar-collapse navbar-responsive-collapse">

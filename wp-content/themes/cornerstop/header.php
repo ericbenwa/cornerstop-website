@@ -106,13 +106,13 @@
 	        <div class="bg_image_container"></div>
 	    </div>
 
-    <div id="page_wrapper">
-        <section id="content">
-                    <figure id="background-arrow">
-                        <img src="">
-                    </figure>
-    	</section>
-    </div>
+        <div id="page_wrapper">
+            <section id="content">
+            <figure id="background-arrow">
+                <img src="">
+            </figure>
+        	</section>
+        </div>
 
 		<?php }	 ?>
 		

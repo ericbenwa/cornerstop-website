@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-	width: 960px;
+	/*width: 960px;*/
 	padding-right: 0;
 	padding-left: 0;
 }
@@ -107,6 +107,11 @@ p {
 	background-size: cover;
 }
 
+.privateparties_editablecontent {
+	margin:0 auto;
+	width: 84%;
+}
+
 /* Visit */
 .page-id-7 {
 	background: url(images/background-visit.jpg) no-repeat top center fixed;
@@ -132,6 +137,11 @@ p {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.giftcertificates_editablecontent {
+	margin:0 auto;
+	width: 60%;
 }
 
 /* Our Story */
@@ -164,6 +174,11 @@ article {
 	height: 410px;
 	margin: 22px 25px 15px 0;
 	width: 438px;
+}
+
+.map iframe {
+	height: 400px;
+	width: 428px;
 }
 
 hr {
@@ -235,7 +250,7 @@ img.private-parties {
 
 .navbar-default .navbar-nav > li > a {
 	color: #FFF;
-	padding: 20px 29px 25px;
+	padding: 20px 30px 25px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -246,9 +261,14 @@ img.private-parties {
 	position: relative;
 }
 
+.navbar-default .navbar-brand {
+	color: #FFF;
+	display: none;
+}
+
 .sidebar-social-icons {
 	position: fixed;
-	bottom: 50px;
+	bottom: 40px;
 	width: 100%;
 }
 
@@ -454,11 +474,14 @@ header .page-header {
 }
 */
 footer {
-	position: fixed;
-	bottom: 0;
-	z-index: 2;
+	/*position: fixed;
+	bottom: 0;*/
+	/*z-index: 200;*/
 }
 
+#page_wrapper {
+	/*z-index: -1;*/
+}
 
 /* Homepage */
 #background_cycler{padding:0;margin:0;width:100%;position:absolute;top:0;left:0;z-index:-1}
@@ -482,4 +505,80 @@ footer {
 
 #button-previous {
 	background: url(images/button-previous.png);
+}
+
+/* Mobile Tweaks */
+@media (max-width: 768px) {
+	#sidebar1 {
+		display: none;
+	}
+
+	.col-sm-10 {
+		padding-right: 0;
+	}
+
+	#content {
+		margin: 0;
+		padding-top: 0;
+	}
+
+	.navbar-default .navbar-nav > li:first-child > a {
+		padding-left: 29px;
+	}
+
+	header {
+	}
+
+	.navbar-collapse {
+		border-top: none !important;
+		background-color: rgba(0,0,0,0.5);
+	}
+
+	.navbar-default .navbar-brand {
+		display: inline;
+	}
+
+	#main {
+		margin-bottom: 0;
+	}
+
+	.privateparties_editablecontent, .giftcertificates_editablecontent {
+		width: 100%;
+	}
+
+	.map {
+		float: none;
+		height: 260px;
+		margin: 22px 0 15px;
+		width: 100%;
+	}
+
+	.map iframe {
+		height: 250px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 991px) {
+	.navbar-default .navbar-nav > li > a {
+		padding: 20px 12px 25px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.navbar-default .navbar-nav > li > a {
+		padding: 20px 47px 25px;
+	}
+
+	.map {
+		width: 578px;
+	}
+
+	.map iframe {
+		width: 568px;
+	}
+
+	.privateparties_editablecontent img {
+		width: 100%;
+	}
 }

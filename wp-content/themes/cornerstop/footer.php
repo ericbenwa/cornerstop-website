@@ -27,7 +27,6 @@
 							</div>
 						</div>
 					<?php }	 ?>
-
 				
 				</div> <!-- end #inner-footer -->
 				
