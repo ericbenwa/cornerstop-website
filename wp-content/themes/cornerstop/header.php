@@ -73,9 +73,9 @@
             es_globals.isMobile = true;
         }
 
-        if ((es_globals.isMobile) && !isForcefull) {
-            window.location = "/mobile";
-        }
+        // if ((es_globals.isMobile) && !isForcefull) {
+        //     window.location = "/mobile";
+        // }
 
         es_globals.templateUrl = "<?php echo get_stylesheet_directory_uri(); ?>";
 
