@@ -7,7 +7,7 @@
  Template:       wordpress-bootstrap-master
  Version:        1.0.0
 */
- 
+
 @import url("../wordpress-bootstrap-master/style.css");
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-	/*width: 960px;*/
+	max-width: 960px;
 	padding-right: 0;
 	padding-left: 0;
 }
@@ -250,7 +250,7 @@ img.private-parties {
 
 .navbar-default .navbar-nav > li > a {
 	color: #FFF;
-	padding: 20px 30px 25px;
+	padding: 20px 28px 25px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -508,7 +508,7 @@ footer {
 }
 
 /* Mobile Tweaks */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	#sidebar1 {
 		display: none;
 	}
@@ -523,7 +523,11 @@ footer {
 	}
 
 	.navbar-default .navbar-nav > li:first-child > a {
-		padding-left: 29px;
+		padding-left: 15px;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+		padding-left: 15px;
 	}
 
 	header {
@@ -557,14 +561,38 @@ footer {
 		height: 250px;
 		width: 100%;
 	}
+
+	.post_content p img {
+		margin-right: 0;
+		width: 100%;
+	}
 }
 
 @media (max-width: 991px) {
 	.navbar-default .navbar-nav > li > a {
 		padding: 20px 12px 25px;
 	}
+
+	.map {
+		float: none;
+		height: 260px;
+		margin: 22px 0 15px;
+		width: 100%;
+	}
+
+	.map iframe {
+		height: 250px;
+		width: 100%;
+	}
 }
 
+/*@media (min-width: 992px) {
+	.navbar-default .navbar-nav > li > a {
+		padding: 20px 29px 25px;
+	}
+}*/
+
+/*
 @media (min-width: 1200px) {
 	.navbar-default .navbar-nav > li > a {
 		padding: 20px 47px 25px;
@@ -581,4 +609,4 @@ footer {
 	.privateparties_editablecontent img {
 		width: 100%;
 	}
-}
+}*/
