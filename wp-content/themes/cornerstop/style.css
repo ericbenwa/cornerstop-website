@@ -656,6 +656,9 @@ footer {
 		width: 100%;
 	}
 
+	footer .col-sm-8 {
+	}
+
 	footer .col-sm-4 {
 		display: none;
 	}
