@@ -1,16 +1,16 @@
 #background-arrow {
   position: absolute;
-  top: 200px;
+  top: 280px;
   cursor: pointer;
   z-index: 1;
 }
 
 #background-arrow.rightSide {
-  right: 50px;
+  right: 210px;
 }
 
 #background-arrow.leftSide {
-  right: auto;
+  left: 210px;
 }
 
 #bg_images {

@@ -26,6 +26,23 @@ body {
 	line-height: 20px;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 105px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 970px;
+  /* Set the fixed height of the footer here */
+  height: 105px;
+  z-index: 2;
+}
+
 .container {
 	max-width: 960px;
 	padding-right: 0;
@@ -189,11 +206,12 @@ footer hr {
 	opacity: 0;
 }
 
-footer {
+/*footer {
 	font-size: 11px;
 	position: absolute;
+	bottom: 20px;
 	z-index: 2;
-}
+}*/
 
 footer a, footer a:hover, footer a:visited {
 	color: #FFF;
@@ -509,6 +527,48 @@ footer {
 	background: url(images/button-previous.png);
 }
 
+.col-sm-4 .mc4wp-form {
+	margin-top: -2px;
+	margin-left: 50px;
+}
+
+.col-sm-4 #mc4wp_email {
+	background-color: transparent;
+	border-top: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+	border-right: none;
+	border-bottom: 1px solid #FFF;
+	width:100%;
+	border-radius: 0;
+	color: #FFF;
+	-webkit-box-shadow: none;
+	padding-left: 8px;
+	width: 175px;
+}
+
+.mc4wp-form ::-webkit-input-placeholder {
+	color: #FFF;
+}
+
+.mc4wp-form input[type="email"] {
+	display: inline;
+	height: 27px;
+}
+
+.col-sm-4 input[type="submit"] {
+	background-color: #7e7d78;
+	border: 1px solid #FFF;
+	color: #FFF;
+	margin-left: -3px;
+}
+
+.home.page .col-sm-4 {
+}
+
+.home.page .mc4wp-alert.mc4wp-success {
+	margin-top: -100px;
+}
+
 
 @media (max-width: 991px) {
 	.navbar-default .navbar-nav > li > a {
@@ -590,5 +650,13 @@ footer {
 	.post_content p img {
 		margin-right: 0;
 		width: 100%;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	footer .col-sm-4 {
+		display: none;
 	}
 }
