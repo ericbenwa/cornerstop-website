@@ -12,7 +12,13 @@
 					</div>
 
 					<div class="collapse navbar-collapse navbar-responsive-collapse">
-						<?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+						<ul id="menu-main-menu" class="nav navbar-nav"><li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://cornerstop.local/eat-drink/">Eat + Drink</a></li>
+							<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://cornerstop.local/our-story/">Our Story</a></li>
+							<li id="menu-item-130" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://cornerstop.local/happenings/">Happenings</a></li>
+							<li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://cornerstop.local/private-parties/">Private Parties</a></li>
+							<li id="menu-item-11" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#ex1" rel="modal:open">Gift Certificates</a></li>
+							<li id="menu-item-8" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://cornerstop.local/visit/">Visit</a></li>
+						</ul>
 					</div>
 
 				</div> <!-- end .navbar -->
