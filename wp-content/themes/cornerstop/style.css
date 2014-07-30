@@ -34,7 +34,7 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 105px;
 }
-footer {
+.home footer {
   position: absolute;
   bottom: 0;
   width: 970px;
@@ -586,6 +586,15 @@ footer {
 		height: 250px;
 		width: 100%;
 	}
+
+	.home footer {
+		width: 590px;
+		height: 130px;
+	}
+
+	.home footer .col-sm-4 {
+		display: none;
+	}
 }
 
 /* Mobile Tweaks */
@@ -652,14 +661,20 @@ footer {
 		width: 100%;
 	}
 
-	footer {
+	.home footer {
 		width: 100%;
+		height: 130px;
+	}
+
+	.home .row {
+		margin-right: 0;
 	}
 
 	footer .col-sm-8 {
+		padding-left: 30px;
 	}
 
-	footer .col-sm-4 {
+	.home footer .col-sm-4 {
 		display: none;
 	}
 }
