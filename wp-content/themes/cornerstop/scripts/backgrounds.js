@@ -14,7 +14,7 @@
               exports = { 
                    initialize: function(){ 
 
-                      var bgLength = es_globals.bgImages.length,
+                      var bgImages = es_globals.bgImages,
                           getMiddleOfPage = function() {
                             return Math.round($("#content").width() / 2);
                           },
@@ -23,9 +23,24 @@
 
                       if (bgLength) {
 
-                        $(".bg_image_container").each(function(index){
-                          $(this).css("background-image", "url('" + es_globals.bgImages[index].src + "')");
-                        });
+                        var indx = 0,
+                            containers = $(".bg_image_container");
+
+                        while(bgImages.length > 0) {
+                          // this will randomly select an index from the array, 
+                          // and then remove it from the array. The loop ends after
+                          // all of the images have been removed (bgImages.length == 0)
+                          // It takes the spliced image and uses it on the next (indx)
+                          // element in that containers selection
+                          var random = Math.ceil(Math.random() * 1000) % bgImages.length,
+                              img = bgImages.splice(random, 1)[0],
+                              target = containers.get(indx);
+
+                          $(target).css({
+                            "background-image": ['url(', img.src, ')'].join('')
+                          });
+                          indx++;
+                        }
 
                       }
 
