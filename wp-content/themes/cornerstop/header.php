@@ -83,18 +83,28 @@
 
         es_globals.bgImages = [];
 
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-home.jpg';
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-eat-drink.jpg';
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-happenings.jpg';
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-our-story.jpg';
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-private-parties.jpg';
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-gift-certificates.jpg';
-        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo get_stylesheet_directory_uri(); ?>/images/background-visit.jpg';
+<?php
+$image_array = array(
+get_stylesheet_directory_uri() . '/images/background-home.jpg',
+get_stylesheet_directory_uri() . '/images/background-eat-drink.jpg',
+get_stylesheet_directory_uri() . '/images/background-happenings.jpg',
+get_stylesheet_directory_uri() . '/images/background-our-story.jpg',
+get_stylesheet_directory_uri() . '/images/background-private-parties.jpg',
+get_stylesheet_directory_uri() . '/images/background-gift-certificates.jpg',
+get_stylesheet_directory_uri() . '/images/background-visit.jpg'
+);
+shuffle($image_array);
+foreach($image_array as $image_url) {
+?>
+        es_globals.bgImages.push(new Image());es_globals.bgImages[es_globals.bgImages.length - 1].src = '<?php echo $image_url; ?>';
+<?php
+}
+?>
     </script>
 				
 	</head>
 	
-	<body <?php body_class(); ?>>
+  <body <?php body_class(); ?> style="background-image: url('<?php echo $image_array[0]; ?>')">
 
         <?php include 'giftcertificates.php';?>
 

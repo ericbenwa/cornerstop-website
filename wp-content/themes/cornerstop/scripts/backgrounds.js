@@ -21,24 +21,19 @@
                           middleOfPage = getMiddleOfPage(),
                           whichSide = "";
 
-                      if (bgLength) {
+                      if (bgImages && bgImages.length > 0) {
 
                         var indx = 0,
                             containers = $(".bg_image_container");
 
                         while(bgImages.length > 0) {
-                          // this will randomly select an index from the array, 
-                          // and then remove it from the array. The loop ends after
-                          // all of the images have been removed (bgImages.length == 0)
-                          // It takes the spliced image and uses it on the next (indx)
-                          // element in that containers selection
-                          var random = Math.ceil(Math.random() * 1000) % bgImages.length,
-                              img = bgImages.splice(random, 1)[0],
+                          var img = bgImages.splice(0, 1)[0],
                               target = containers.get(indx);
 
                           $(target).css({
                             "background-image": ['url(', img.src, ')'].join('')
                           });
+
                           indx++;
                         }
 
