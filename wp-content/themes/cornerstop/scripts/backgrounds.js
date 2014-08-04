@@ -14,18 +14,38 @@
               exports = { 
                    initialize: function(){ 
 
-                      var bgLength = es_globals.bgImages.length,
+                      var bgImages = es_globals.bgImages,
                           getMiddleOfPage = function() {
                             return Math.round($("#content").width() / 2);
                           },
                           middleOfPage = getMiddleOfPage(),
                           whichSide = "";
 
-                      if (bgLength) {
+                      if (bgImages && bgImages.length > 0) {
 
-                        $(".bg_image_container").each(function(index){
-                          $(this).css("background-image", "url('" + es_globals.bgImages[index].src + "')");
-                        });
+                        var indx = 0,
+                            containers = $(".bg_image_container");
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        while(bgImages.length > 0) {
+                          var img = bgImages.splice(0, 1)[0],
+=======
+                        while(indx < bgImages.length) {
+                          var img = bgImages[indx],
+>>>>>>> FETCH_HEAD
+=======
+                        while(indx < bgImages.length) {
+                          var img = bgImages[indx],
+>>>>>>> FETCH_HEAD
+                              target = containers.get(indx);
+
+                          $(target).css({
+                            "background-image": ['url(', img.src, ')'].join('')
+                          });
+
+                          indx++;
+                        }
 
                       }
 
