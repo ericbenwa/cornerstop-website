@@ -85,13 +85,34 @@
 
 <?php
 $image_array = array(
-get_stylesheet_directory_uri() . '/images/background-home.jpg',
-get_stylesheet_directory_uri() . '/images/background-eat-drink.jpg',
-get_stylesheet_directory_uri() . '/images/background-happenings.jpg',
-get_stylesheet_directory_uri() . '/images/background-our-story.jpg',
-get_stylesheet_directory_uri() . '/images/background-private-parties.jpg',
-get_stylesheet_directory_uri() . '/images/background-gift-certificates.jpg',
-get_stylesheet_directory_uri() . '/images/background-visit.jpg'
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-1.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-2.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-3.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-4.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-5.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-6.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-7.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-8.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-9.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-10.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-11.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-12.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-13.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-14.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-15.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-16.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-17.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-18.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-19.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-20.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-21.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-22.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-23.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-24.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-25.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-26.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-27.jpg',
+get_stylesheet_directory_uri() . '/images/homepage/corner-stop-28.jpg'
 );
 shuffle($image_array);
 foreach($image_array as $image_url) {
@@ -120,6 +141,26 @@ foreach($image_array as $image_url) {
 	        <div class="bg_image_container"></div>
 	        <div class="bg_image_container"></div>
 	        <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
+            <div class="bg_image_container"></div>
 	    </div>
 
         <div id="page_wrapper">
