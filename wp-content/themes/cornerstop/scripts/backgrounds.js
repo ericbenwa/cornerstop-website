@@ -26,8 +26,13 @@
                         var indx = 0,
                             containers = $(".bg_image_container");
 
+<<<<<<< HEAD
                         while(bgImages.length > 0) {
                           var img = bgImages.splice(0, 1)[0],
+=======
+                        while(indx < bgImages.length) {
+                          var img = bgImages[indx],
+>>>>>>> FETCH_HEAD
                               target = containers.get(indx);
 
                           $(target).css({
