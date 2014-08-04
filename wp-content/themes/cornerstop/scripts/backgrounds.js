@@ -27,8 +27,13 @@
                             containers = $(".bg_image_container");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                         while(bgImages.length > 0) {
                           var img = bgImages.splice(0, 1)[0],
+=======
+                        while(indx < bgImages.length) {
+                          var img = bgImages[indx],
+>>>>>>> FETCH_HEAD
 =======
                         while(indx < bgImages.length) {
                           var img = bgImages[indx],
