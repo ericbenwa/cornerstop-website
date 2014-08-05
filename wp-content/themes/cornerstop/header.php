@@ -125,7 +125,7 @@ foreach($image_array as $image_url) {
 				
 	</head>
 	
-  <body <?php body_class(); ?> style="background-image: url('<?php echo $image_array[0]; ?>')">
+  <body <?php body_class(); ?> <?php if(is_page('index')) { ?> style="background-image: url('<?php echo $image_array[0]; ?>')" <?php } ?>>
 
         <?php include 'giftcertificates.php';?>
 
