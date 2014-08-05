@@ -567,7 +567,22 @@ footer {
 	background-color: #7e7d78;
 	border: 1px solid #FFF;
 	color: #FFF;
+	margin-left: -3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	height: 27px;
 }
+
+/*@media screen and (-webkit-min-device-pixel-ratio:0) { 
+.col-sm-4 input[type="submit"] {
+ color:red;
+}
+
+::i-block-chrome,.col-sm-4 input[type="submit"] {
+ (;color: blue;);
+ [;color: blue;];
+}
+}*/
 
 .home.page .col-sm-4 {
 }
