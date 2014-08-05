@@ -163,7 +163,32 @@ p {
 
 .giftcertificates_editablecontent {
 	margin:0 auto;
-	width: 60%;
+	width: 80%;
+}
+
+.giftcertificates_editablecontent h1 {
+	color:#da824f;
+	padding-bottom: 20px;
+}
+
+.paypal_button {
+	color: #FFF;
+	background-color: #7e7d78;
+	border: none !important;
+	padding: 12px 30px;
+	text-transform: uppercase;
+}
+
+.page-gift-certificates #main {
+	/*min-height: 500px;*/
+	padding-top: 30px;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 125px;
+}
+
+.page-gift-certificates #main form {
+	margin-top: -20px;
 }
 
 /* Our Story */
@@ -673,6 +698,11 @@ footer {
 
 	.privateparties_editablecontent, .giftcertificates_editablecontent {
 		width: 100%;
+	}
+
+	.page-gift-certificates #main {
+		width: 100%;
+		margin-top: 0;
 	}
 
 	.map {
