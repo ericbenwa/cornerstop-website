@@ -34,14 +34,10 @@
 
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/jquery.modal.js" type="text/javascript"></script>
-        <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/jquery.modal.css" />
 				
 	</head>
 	
   <body <?php body_class(); ?> <?php if(is_page('index')) { ?> style="background-image: url('<?php echo $image_array[0]; ?>')" <?php } ?>>
-
-        <?php include 'giftcertificates.php';?>
 
         <!-- <p><a href="#ex1" rel="modal:open" style="z-index:50; color:green; position:absolute; top:5;">Open Modal</a></p> -->
 
