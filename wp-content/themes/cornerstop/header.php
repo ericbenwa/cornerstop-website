@@ -75,9 +75,11 @@
 
         <div id="page_wrapper">
             <section id="content">
-            <figure id="background-arrow">
-                <img src="">
-            </figure>
+            <div class="container arrow-container">
+              <figure id="background-arrow" class="arrow">
+                  <img src="">
+              </figure>
+            </div>
         	</section>
         </div>
 
