@@ -139,7 +139,8 @@ foreach($image_array as $image_url) {
 			ga('send', 'pageview');
 		</script>
 
+		<?php if ( is_page('index')) { ?>
 		<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/cycle-background-image.js"></script>
 		<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/require.min.js" data-main="<?php echo get_stylesheet_directory_uri(); ?>/scripts/main.js"></script>
-
+		<?php }  ?>
 </html>
