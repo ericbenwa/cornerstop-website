@@ -43,6 +43,12 @@ body.home {
   z-index: 2;
 }
 
+.arrow-container {
+  position: relative;
+}
+.arrow-container #background-arrow.leftSide{ left: 2px; }
+.arrow-container #background-arrow.rightSide{ right: 0px; }
+
 .container {
 	max-width: 960px;
 	padding-right: 0;
