@@ -1,4 +1,6 @@
 				<div id="sidebar1" class="col-sm-2" role="complementary">
+
+					<div class="sidebar_container">
 				
 					<!-- <?php if ( is_active_sidebar( 'sidebar1' ) ) : ?> -->
 
@@ -61,5 +63,7 @@
 						</div>
 
 					<?php endif; ?>
+
+					</div>
 
 				</div>

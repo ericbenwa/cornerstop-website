@@ -356,9 +356,9 @@ img.private-parties {
 }
 
 /* Sidebar */
-#sidebar1 {
-/*	position: fixed;
-	top: 0;
+#sidebar1  .sidebar_container{
+	position: fixed;
+/*	top: 0;
 	left: 0;*/
 	/*width: 125px;*/
 }
@@ -433,7 +433,7 @@ h4.widgettitle {
 }
 
 .form-inline .input-group {
-	width: 88%;
+	width: 125px;
 }
 
 .form-inline .input-group .input-group-btn button {
@@ -698,6 +698,10 @@ footer {
 
 	.home footer .col-sm-4 {
 		display: none;
+	}
+
+	.form-inline .input-group {
+		width: 100px;
 	}
 }
 
