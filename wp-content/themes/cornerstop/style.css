@@ -340,7 +340,8 @@ img.private-parties {
 	display: none;
 }
 
-.single-post .navbar-default .navbar-nav > li.current_page_parent > a {
+.single-post .navbar-default .navbar-nav > li.current_page_parent > a,
+.archive .navbar-default .navbar-nav > li.current_page_parent > a {
 	color: #da824f;
 }
 
@@ -492,7 +493,7 @@ h4.widgettitle {
 
 
 /* Happenings */
-.blog, .single-post {
+body.blog, body.single-post, body.archive {
 	background: url(images/background-happenings.jpg) no-repeat top center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
