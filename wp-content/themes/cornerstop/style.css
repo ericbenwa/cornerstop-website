@@ -267,6 +267,16 @@ footer hr {
 	z-index: 2;
 }*/
 
+.page-our-story a.title, .page-our-story a.title:hover {
+	color: #da824f;
+	text-decoration: none;
+}
+
+.page-our-story h1 a {
+	color: #FFF;
+	text-decoration: none;
+}
+
 footer a, footer a:hover, footer a:visited {
 	color: #FFF;
 }
@@ -396,7 +406,7 @@ h4.widgettitle {
 	width: 93px;
 }
 
-.page-id-16 #sidebar1 h3 {
+.page-id-16 #sidebar1 h3, .page-our-story #sidebar1 h3 {
 	font-size: 16px;
 	font-weight: 600;
 }
@@ -500,6 +510,10 @@ body.blog, body.single-post, body.archive, body.search {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.archive #sidebar1 .current-cat a, .blog #sidebar1 .blog-categories {
+	color: #da824f;
 }
 
 #main p.meta {
