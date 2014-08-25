@@ -13,10 +13,6 @@
 						<?php } elseif ( is_page('index')) { ?>
 
 						<?php } elseif ( is_page('our-story')) { ?>
-							<h3><a href="#proprietors">Proprietors</a></h3>
-							<h3><a href="#chef">Chef</a></h3>
-							<h3><a href="#restaurant">Restaurant</a></h3>
-
 							<div class="sidebar-social-icons">
 								<a href="https://www.facebook.com/cornerstopeatery" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon-facebook.png" alt="icon-facebook" class="alignnone size-full wp-image-63 social-icon" /></a> <a href="http://www.twitter.com/cornerstop2" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon-twitter.png" alt="icon-twitter" class="alignnone size-full wp-image-65 social-icon" /></a> <a href="http://www.instagram.com/cornerstopeatery" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon-instagram.png" alt="icon-instagram" class="alignnone size-full wp-image-64 social-icon" /></a>
 							</div>
