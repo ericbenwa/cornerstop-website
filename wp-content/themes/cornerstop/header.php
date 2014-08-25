@@ -33,8 +33,7 @@
 		<!-- end of wordpress head -->
 
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-				
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript" charset="utf-8"></script>	
 	</head>
 	
   <body <?php body_class(); ?> <?php if(is_page('index')) { ?> style="background-image: url('<?php echo $image_array[0]; ?>')" <?php } ?>>
