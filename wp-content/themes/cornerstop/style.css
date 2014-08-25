@@ -177,7 +177,7 @@ p {
 }
 
 /* Gift Certificates */
-.page-id-10 {
+.page-gift-certificates {
 	background: url(images/background-gift-certificates.jpg) no-repeat top center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -215,8 +215,13 @@ p {
 	margin-top: -20px;
 }
 
+.page-gift-certificates table {
+	width: 100%;
+}
+
+
 /* Our Story */
-.page-id-13 {
+.page-our-story {
 	background: url(images/background-our-story.jpg) no-repeat top center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -224,7 +229,7 @@ p {
 	background-size: cover;
 }
 
-.page-id-13 h1 {
+.page-our-story h1 {
 	margin-bottom: 15px;
 }
 
@@ -314,6 +319,10 @@ img.private-parties {
 	font-weight: 600;
 }
 
+.navbar-brand {
+	padding-top: 5px;
+}
+
 .navbar-default {
 	background-color: transparent;
 	border-color: transparent;
@@ -385,7 +394,7 @@ h4.widgettitle {
 }
 
 /* Eat + Drink */
-.page-id-16 {
+.page-eat-drink {
 	background: url(images/background-eat-drink.jpg) no-repeat top center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -393,11 +402,11 @@ h4.widgettitle {
 	background-size: cover;
 }
 
-.page-id-16 .title {
+.page-eat-drink .title {
 	color: #FFF;
 }
 
-.page-id-16 #sidebar1 h2 {
+.page-eat-drink #sidebar1 h2 {
 	border-bottom: 1px solid rgba(255, 255, 255, .3);
 	font-size: 16px;
 	font-weight: 600;
@@ -406,21 +415,26 @@ h4.widgettitle {
 	width: 93px;
 }
 
-.page-id-16 #sidebar1 h3, .page-our-story #sidebar1 h3 {
+.page-eat-drink #sidebar1 h3, .page-our-story #sidebar1 h3 {
 	font-size: 16px;
 	font-weight: 600;
 }
 
-.page-id-16 #sidebar1 h3 a {
+.page-eat-drink #sidebar1 h3 a {
 	padding-left: 15px;
 	display: block;
 }
 
-.page-id-16 #main h1 a {
+.page-eat-drink #sidebar1 h3 a.active,
+.page-our-story #sidebar1 h3 a.active {
+	color: #da824f;
+}
+
+.page-eat-drink #main h1 a {
 	color: #FFF;
 }
 
-.page-id-16 #main h1 a:hover {
+.page-eat-drink #main h1 a:hover {
 	text-decoration: none;
 }
 
@@ -564,6 +578,12 @@ header .page-header {
 	display: none;
 }
 
+ul.xoxo.blogroll {
+	margin: 0;
+	padding: 0;
+	list-style: none !important;
+}
+
 .blog-categories {
 	display: block;
 	margin-top: 30px;
@@ -574,10 +594,7 @@ header .page-header {
 	margin-left: 5px;
 }
 
-/*footer #inner-footer {
-	position: relative;
-}
-*/
+
 footer {
 	/*position: fixed;
 	bottom: 0;*/
@@ -812,8 +829,20 @@ footer {
 	}
 }
 
-/*@media (max-width: 1100px) {
-  .container {
-    width: 900px;
-  }
-}*/
+@media (max-width: 480px) {
+    .page-index br { display: none; }
+
+    .page-index br.index-icons { display: block; }
+}
+
+
+
+
+
+.page-index br.index-icons {
+	display: none;
+}
+
+.page-index p.attribution {
+	display: inline;
+}
