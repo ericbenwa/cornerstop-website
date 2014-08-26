@@ -577,12 +577,16 @@ header .page-header {
 	font-size: 16px;
 	font-weight: 600;
 	margin-bottom: 0;
-	padding: 0 0 15px;
+	padding: 0 0 7px;
 	text-transform: uppercase;
 }
 
 #archives-2 h4, #text-2 h4 {
 	font-weight: 600;
+}
+
+.widget {
+	margin-bottom: 10px;
 }
 
 #categories-2 .widgettitle {
@@ -846,8 +850,16 @@ footer {
     .page-index br.index-icons { display: block; }
 }
 
-
-
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .navbar-default .navbar-nav > li > a {
+		padding: 20px 9px 25px;
+	}
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+  .navbar-default .navbar-nav > li > a {
+		padding: 20px 9px 25px;
+	}
+}
 
 
 .page-index br.index-icons {
