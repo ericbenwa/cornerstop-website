@@ -172,8 +172,14 @@ p {
 	font-size: 16px;
 }
 
-.wpcf7-response-output {
-	border: 1px solid #FFF;
+div.wpcf7-response-output {
+	margin: 10px 0 0 !important;
+}
+
+/*div.wpcf7-response-output,*/
+div.wpcf7-mail-sent-ok,
+div.wpcf7-validation-errors {
+	border: 1px solid #FFF !important;
 }
 
 /* Gift Certificates */
@@ -470,6 +476,11 @@ h4.widgettitle {
 	border-right: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	border-radius: 0;
+}
+
+.tags a {
+	font-size: 12px;
+	background: none !important;
 }
 
 /* Contact Form */
