@@ -397,6 +397,19 @@ img.private-parties {
 h4.widgettitle {
 	font-size: 16px;
 	padding: 15px 0 0;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+}
+
+#sidebar1 h2,
+#sidebar1 h3,
+#sidebar1 li {
+	-webkit-text-shadow: 0px 0px 44px 3px #000;
+	-moz-text-shadow: 0px 0px 44px 3px #000;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+}
+
+#sidebar1 .active {
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
 }
 
 /* Eat + Drink */
