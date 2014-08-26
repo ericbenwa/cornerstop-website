@@ -90,7 +90,6 @@
 
 <?php
 $image_array = array(
-get_stylesheet_directory_uri() . '/images/homepage/corner-stop-1.jpg',
 get_stylesheet_directory_uri() . '/images/homepage/corner-stop-2.jpg',
 get_stylesheet_directory_uri() . '/images/homepage/corner-stop-3.jpg',
 get_stylesheet_directory_uri() . '/images/homepage/corner-stop-4.jpg',
@@ -126,6 +125,8 @@ foreach($image_array as $image_url) {
 <?php
 }
 ?>
+      es_globals.bgImages.unshift(new Image());
+      es_globals.bgImages[0].src = '<?php echo get_stylesheet_directory_uri() . '/images/homepage/corner-stop-1.jpg'; ?>';
     </script>
     <?php }  ?>
 

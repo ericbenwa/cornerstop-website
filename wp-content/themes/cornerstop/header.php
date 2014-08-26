@@ -36,8 +36,9 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 				
 	</head>
-	
-  <body <?php body_class(); ?> <?php if(is_page('index')) { ?> style="background-image: url('<?php echo $image_array[0]; ?>')" <?php } ?>>
+
+  <?php $body_bg_image = get_stylesheet_directory_uri() . '/images/homepage/corner-stop-1.jpg'; ?>
+  <body <?php body_class(); ?> <?php if(is_page('index')) { ?> style="background-image: url('<?php echo $body_bg_image; ?>')" <?php } ?>>
 
         <!-- <p><a href="#ex1" rel="modal:open" style="z-index:50; color:green; position:absolute; top:5;">Open Modal</a></p> -->
 
