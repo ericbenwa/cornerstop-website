@@ -126,6 +126,8 @@ foreach($image_array as $image_url) {
 <?php
 }
 ?>
+		es_globals.bgImages.unshift(new Image());
+		es_globals.bgImages[0].src = '<?php echo get_stylesheet_directory_uri() . '/images/homepage/corner-stop-27.jpg'; ?>';
     </script>
     <?php }  ?>
 
