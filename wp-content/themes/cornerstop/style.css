@@ -17,7 +17,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-	background: url(images/background-home.jpg) no-repeat top center fixed; 
+	background: url(images/background-home.jpg) no-repeat top center fixed #000; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -239,6 +239,10 @@ div.wpcf7-validation-errors {
 	margin-bottom: 15px;
 }
 
+.page-our-story h3 {
+	text-transform: uppercase;
+}
+
 .title {
 	color: #da824f;
 	font-size: 11px;
@@ -270,13 +274,6 @@ hr {
 footer hr {
 	opacity: 0;
 }
-
-/*footer {
-	font-size: 11px;
-	position: absolute;
-	bottom: 20px;
-	z-index: 2;
-}*/
 
 .page-our-story a.title, .page-our-story a.title:hover {
 	color: #da824f;
@@ -383,11 +380,8 @@ img.private-parties {
 }
 
 /* Sidebar */
-#sidebar1  .sidebar_container{
+#sidebar1  .sidebar_container {
 	position: fixed;
-/*	top: 0;
-	left: 0;*/
-	/*width: 125px;*/
 }
 
 #sidebar1 a {
@@ -491,11 +485,6 @@ h4.widgettitle {
 	border-radius: 0;
 }
 
-.tags a {
-	font-size: 12px;
-	background: none !important;
-}
-
 /* Contact Form */
 .wpcf7-form-control-wrap input, .wpcf7-form-control-wrap textarea {
 	background-color: transparent;
@@ -548,6 +537,18 @@ body.blog, body.single-post, body.archive, body.search {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.tags a {
+	font-size: 12px;
+	background: none !important;
+}
+
+.blog #sidebar1 .sidebar_container,
+.archive #sidebar1 .sidebar_container,
+.single-post #sidebar1  .sidebar_container,
+.search-results #sidebar1  .sidebar_container {
+	position: relative;
 }
 
 .archive #sidebar1 .current-cat a, .blog #sidebar1 .blog-categories {
