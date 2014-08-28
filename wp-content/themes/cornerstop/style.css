@@ -14,6 +14,7 @@ body, h1, h2, h3, h4, h5, h6 {
 	color: #FFF;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
+	font-weight: 400;
 }
 
 body {
@@ -30,10 +31,12 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body.home {
   /* Margin bottom by footer height */
   margin-bottom: 105px;
 }
+
 .home footer {
   position: absolute;
   bottom: 0;
@@ -41,6 +44,10 @@ body.home {
   /* Set the fixed height of the footer here */
   height: 105px;
   z-index: 2;
+}
+
+strong {
+	font-weight: 600;
 }
 
 #main footer a.edit-post, #main footer a.edit-post:visited {
@@ -64,6 +71,7 @@ body.home {
 .arrow-container {
   position: relative;
 }
+
 .arrow-container #background-arrow.leftSide{ left: 1px; }
 .arrow-container #background-arrow.rightSide{ right: 9px; }
 
@@ -113,6 +121,7 @@ h1, .h2 {
 #main {
 	margin-bottom: 0;
 	padding: 10px 40px 0;
+	font-weight: 400;
 }
 
 a, a:visited, #main footer a, #main footer a:visited {
@@ -130,10 +139,6 @@ p {
 #main {
 	background-color: rgba(0,0,0,0.8);
 	border-radius: 2px;
-}
-
-#menu-main-menu {
-	/*margin-left: 20px;*/
 }
 
 .navbar {
@@ -210,7 +215,6 @@ div.wpcf7-validation-errors {
 }
 
 .page-gift-certificates #main {
-	/*min-height: 500px;*/
 	padding-top: 30px;
 	width: 70%;
 	margin: 0 auto;
@@ -224,7 +228,6 @@ div.wpcf7-validation-errors {
 .page-gift-certificates table {
 	width: 100%;
 }
-
 
 /* Our Story */
 .page-our-story {
@@ -296,8 +299,6 @@ footer a, footer a:hover, footer a:visited {
 .price {
 	/*padding-left: 15px;*/
 }
-
-.restuarant_menu strong
 
 #menu-main-menu {
 	font-weight: 600;
@@ -521,14 +522,10 @@ h4.widgettitle {
 }
 
 #mc4wp-checkbox label {
-	font-weight: normal;
+	font-weight: 400;
 	margin-top: 2px;
 	text-align: right;
 }
-
-#mc4wp-checkbox input[type="checkbox"] {
-}
-
 
 /* Happenings */
 body.blog, body.single-post, body.archive, body.search {
@@ -623,15 +620,10 @@ ul.xoxo.blogroll {
 	margin-left: 5px;
 }
 
-
 footer {
 	/*position: fixed;
 	bottom: 0;*/
 	/*z-index: 200;*/
-}
-
-#page_wrapper {
-	/*z-index: -1;*/
 }
 
 /* Homepage */
@@ -700,17 +692,6 @@ footer {
 	border: none !important;
 	margin-left: 0;
 }
-
-/*@media screen and (-webkit-min-device-pixel-ratio:0) { 
-.col-sm-4 input[type="submit"] {
- color:red;
-}
-
-::i-block-chrome,.col-sm-4 input[type="submit"] {
- (;color: blue;);
- [;color: blue;];
-}
-}*/
 
 .home.page .col-sm-4 {
 }
@@ -798,9 +779,6 @@ footer {
 		padding-left: 15px;
 	}
 
-	header {
-	}
-
 	.navbar-collapse {
 		border-top: none !important;
 		background-color: rgba(0,0,0,0.5);
@@ -875,6 +853,7 @@ footer {
 		width: 100%;
 	}
 }
+
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
   .navbar-default .navbar-nav > li > a {
 		padding: 20px 9px 25px;
@@ -886,7 +865,6 @@ footer {
 		width: 100%;
 	}
 }
-
 
 .page-index br.index-icons {
 	display: none;
