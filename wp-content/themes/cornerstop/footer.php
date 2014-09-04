@@ -24,6 +24,7 @@
 
 							<div class="col-sm-4">
 								<?php echo do_shortcode('[mc4wp_form]'); ?>
+								<p>Website by <a href="http://elephascreative.com/" target="_blank"><strong>Elephas Creative</strong></a></p>
 							</div>
 						</div>
 					<?php }	 ?>

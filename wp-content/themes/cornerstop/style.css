@@ -669,6 +669,20 @@ footer {
 	width: 175px;
 }
 
+.page-index .col-sm-4 p {
+	font-size: 10px;
+	color: #999;
+	text-align: right;
+	margin-right: 19px;
+	margin-top: -10px;
+}
+
+.page-index .col-sm-4 p a {
+	color: #999;
+	font-weight: 600;
+
+}
+
 .mc4wp-form ::-webkit-input-placeholder {
 	color: #FFF;
 }
